@@ -1,0 +1,58 @@
+{
+  "name": "@real-delex/antjs",
+  "version": "0.1.0",
+  "description": "🐜 Self-Healing Test Colony — Autonomous AI agents for web testing",
+  "main": "src/index.js",
+  "bin": {
+    "antjs": "bin/antjs.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/antjs.js",
+    "test": "node examples/basic-test.js",
+    "init": "node bin/antjs.js init",
+    "run": "node bin/antjs.js run",
+    "status": "node bin/antjs.js status"
+  },
+  "keywords": [
+    "ai",
+    "testing",
+    "agents",
+    "playwright",
+    "self-healing",
+    "automation",
+    "browser",
+    "qa",
+    "e2e",
+    "openrouter",
+    "ollama"
+  ],
+  "author": "real-delex",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "commander": "^12.0.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.6",
+    "fs-extra": "^11.2.0",
+    "axios": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/real-delex/antjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/real-delex/antjs/issues"
+  },
+  "homepage": "https://github.com/real-delex/antjs#readme"
+}
