@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@real-delex/antjs"><img src="https://img.shields.io/npm/v/@real-delex/antjs?style=flat-square&color=d35400" alt="npm"></a>
   <a href="https://github.com/real-delex/antjs"><img src="https://img.shields.io/github/stars/real-delex/antjs?style=flat-square&color=f39c12" alt="stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="license"></a>
 </p>
