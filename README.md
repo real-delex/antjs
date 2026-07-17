@@ -36,14 +36,9 @@ No test code to maintain. No brittle selectors. Just run and watch.
 ## 🚀 Quick Start
 
 ```bash
-# Using npx (no install)
-npx @real-delex/antjs init
-npx @real-delex/antjs run --url https://your-app.com
-
-# Or install globally
-npm install -g @real-delex/antjs
-antjs init
-antjs run --url https://your-app.com
+# Using Node.js
+node bin/antjs.js init
+node bin/antjs.js run
 ```
 
 ---
