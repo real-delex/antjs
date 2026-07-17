@@ -217,10 +217,6 @@ Open `./antjs-reports/report.html` in your browser.
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
-
 ## 📄 License
 
 MIT © Ant.js Contributors
