@@ -37,6 +37,8 @@ No test code to maintain. No brittle selectors. Just run and watch.
 
 ```bash
 # Using Node.js
+npm install
+
 node bin/antjs.js init
 node bin/antjs.js run
 ```
@@ -160,22 +162,6 @@ ANTJS_AI_PROVIDER=openai
 ANTJS_AI_MODEL=gpt-4o
 ANTJS_AI_KEY=sk-...
 ANTJS_TEST_URL=https://your-app.com
-```
-
----
-
-## 📖 CLI Commands
-
-```bash
-# Using npx (no install)
-npx @real-delex/antjs init
-npx @real-delex/antjs run --url https://demo.playwright.dev/todomvc
-npx @real-delex/antjs status
-
-# Or after global install
-antjs init
-antjs run --url https://your-app.com
-antjs status
 ```
 
 ---
